@@ -1,28 +1,52 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Pomodoro Timer</h1>
+    <Timer></Timer>
+    <p>Designed and Coded by</p>
+    <a href="https://www.scottaprice.com" target="_blank">Scott A Price</a>
+    <p>Sound effects obtained from <a href="https://www.zapsplat.com" target="_blank">https://www.zapsplat.com</a></p>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Timer from './components/Timer.vue'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    HelloWorld
+    Timer
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  background-color: #00a99e;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  font-size: 40px;
+}
+svgicon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  color: inherit;
+  vertical-align: middle;
+  fill: none;
+  stroke: currentColor;
+}
+.vue-svg-fill {
+  fill: currentColor;
+  stroke: none;
 }
 </style>
