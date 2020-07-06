@@ -54,7 +54,7 @@ button {
   cursor: pointer;
   overflow: hidden;
   outline: none;
-  color: white;
+  color: #41B883;
   font-size: 30px;
 }
 img {

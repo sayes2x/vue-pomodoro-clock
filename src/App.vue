@@ -25,13 +25,13 @@ body {
   margin: 0;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
-  background-color: #00a99e;
+  background-color: #14293E;
   text-align: center;
-  color: white;
+  color: #41B883;
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #41B883;
 }
 h1 {
   font-size: 40px;
